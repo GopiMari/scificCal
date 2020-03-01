@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/edisplay"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"></TextView>
+
+    <GridLayout
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:columnCount="4">
+
+        <Button
+            android:onClick="numfield"
+            android:text="9" />
+
+        <Button
+            android:onClick="numfield"
+            android:text="8" />
+
+        <Button
+            android:onClick="numfield"
+            android:text="7" />
+
+        <Button
+            android:onClick="operator"
+            android:text="+" />
+
+        <Button
+            android:onClick="numfield"
+            android:text="6" />
+
+        <Button
+            android:onClick="numfield"
+            android:text="5" />
+
+        <Button
+            android:onClick="numfield"
+            android:text="4" />
+
+        <Button
+            android:onClick="operator"
+            android:text="-" />
+
+        <Button
+            android:onClick="numfield"
+            android:text="3" />
+
+        <Button
+            android:onClick="numfield"
+            android:text="2" />
+
+        <Button
+            android:onClick="numfield"
+            android:text="1" />
+
+        <Button
+            android:onClick="operator"
+            android:text="*" />
+
+        <Button
+            android:onClick="clearfield"
+            android:text="clear" />
+
+        <Button
+            android:onClick="numfield"
+
+
+            android:text="0" />
+
+        <Button
+            android:onClick="Equalfield"
+            android:text="=" />
+
+        <Button
+            android:onClick="operator"
+            android:text="/" />
+
+        <Button
+            android:onClick="dotfield"
+            android:text="." />
+
+
+    </GridLayout>
+
+
+</LinearLayout>
